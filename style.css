@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
@@ -163,6 +164,10 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+footer a:hover {
+  text-decoration: underline dotted;
 }
 
 @media (min-width: 700px) {
